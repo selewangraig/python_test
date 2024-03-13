@@ -21,3 +21,6 @@ dev-config.py
 # Ignore IDE/editor specific files
 .idea/
 .vscode/
+
+# Ignore environment variables
+.env
