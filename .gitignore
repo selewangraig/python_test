@@ -1,0 +1,23 @@
+# Ignore python bytecoed files
+__pycache__/
+*.pyc
+
+# Ignore database files
+db.sqlite3
+
+# Ignore static files
+staticfiles/
+media/
+
+# Ignore log files and backups
+*.log
+*.swp
+*.swo
+
+# Ignore local config files
+local_settings.py
+dev-config.py
+
+# Ignore IDE/editor specific files
+.idea/
+.vscode/
