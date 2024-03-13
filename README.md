@@ -41,29 +41,10 @@ To insert products along with their variants, send a POST request to the `/produ
 
 Example JSON request:
 
-json
-{
-"name": "Yoghurt",
-"image": "yoghurt.jpg",
-"variants": [
-{
-"sku": "YOGVAN123",
-"name": "Vanilla Yoghurt",
-"price": "20.00",
-"details": "A bottle of vanilla yoghurt"
-},
-{
-"sku": "YOGCHOC456",
-"name": "Chocolate Yoghurt",
-"price": "18.00",
-"details": "A bottle of chocolate yoghurt"
-}
-]
-}
+![json { "name": "Yoghurt", "image": "yoghurt.jpg", "variants": [ { "sku": "YOGVAN123", "name": "Vanilla Yoghurt", "price": "20.00", "details": "A bottle of vanilla yoghurt" }, { "sku": "YOGCHOC456", "name": "Chocolate Yoghurt", "price": "18.00", "details": "A bottle of chocolate yoghurt" } ] }](image.png)
 
 Example response body:
-json
-{
+![{
 "id": 5,
 "name": "Yoghurt",
 "image": "yoghurt.jpg",
@@ -81,7 +62,7 @@ json
 "details": "A bottle of chocolate yoghurt"
 }
 ]
-}
+}](image-1.png)
 
 ### Retrieving Products
 
